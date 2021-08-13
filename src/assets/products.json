@@ -1,0 +1,129 @@
+[
+  {
+    "name": "The Carbon Programming Language",
+    "header": "A StaplerIO Production",
+    "description": [
+      "The programming language powers all parts of the <span class=\"italic\">Project Parallel</span>.",
+      "Applications written in Carbon must run on the <span class=\"italic\">Carbon Runtime</span>, it cannot be run directly on bare metal."
+    ],
+    "warning": "",
+    "links": [
+      {
+        "name": "Azure DevOps",
+        "icon": "fab fa-git-alt",
+        "address": "https://dev.azure.com/StaplerIO/The%20Carbon%20Programming%20Language"
+      },
+      {
+        "name": "Mirror",
+        "icon": "fas fa-sitemap",
+        "address": "http://hserver.ranzeplay.me:25550/StaplerIO/carbon-lang"
+      }
+    ]
+  },
+  {
+    "name": "Semicolon.OnlineJudge",
+    "header": "A Production of Myself",
+    "description": [
+      "A website like Luogu and CodeForce.",
+      "Users submit the solution of a problem, and the server tests the solution and let the user know.",
+      "The web application is written in <code>C#</code>, running on <code>.NET</code> platform."
+    ],
+    "warning": "",
+    "links": [
+      {
+        "name": "GitHub Repo",
+        "icon": "fab fa-github",
+        "address": "https://github.com/Ranzeplay/Semicolon.OnlineJudge"
+      },
+      {
+        "name": "Mirror",
+        "icon": "fas fa-sitemap",
+        "address": "http://hserver.ranzeplay.me:25550/ranzeplay/Semicolon.OnlineJudge"
+      }
+    ]
+  },
+  {
+    "name": "Grades.Offline.WPF",
+    "header": "A StaplerIO Production",
+    "description": [
+      "An offline application, the only function is to let teachers to manage students' test result.",
+      "Multi-language support (English and Chinese)",
+      "The application also provides the comparison table among each exam.",
+      "It is a winter vacation project. Only develops in 2020's winter vacation."
+    ],
+    "warning": "The development of this project has paused since 2021.2.27",
+    "links": [
+      {
+        "name": "GitHub Repo",
+        "icon": "fab fa-github",
+        "address": "https://github.com/StaplerIO/Grades.Offline.WPF"
+      },
+      {
+        "name": "Mirror",
+        "icon": "fas fa-sitemap",
+        "address": "http://hserver.ranzeplay.me:25550/StaplerIO/Grades.Offline.WPF"
+      }
+    ]
+  },
+  {
+    "name": "MCGit",
+    "header": "A Production of Myself",
+    "description": [
+      "A Minecraft Spigot Server plugin.",
+      "I wanted to make it like Git in the beginning, but I gave up.",
+      "It is just a backup plugin currently.",
+      "The plugin is written in <code>Java</code>."
+    ],
+    "warning": "Project has archived since 2021.8.13",
+    "links": [
+      {
+        "name": "GitHub Repo",
+        "icon": "fab fa-github",
+        "address": "https://github.com/Ranzeplay/MCGit"
+      }
+    ]
+  },
+  {
+    "name": "RemoteDirectoryList",
+    "header": "A Production of Myself",
+    "description": [
+      "A website which allows you to view files and subdirectories in selected directory of remote computer.",
+      "The web application is written in <code>C#</code>, running on <code>.NET</code> platform."
+    ],
+    "warning": "The development of this project has paused since 2020.9.19",
+    "links": [
+      {
+        "name": "GitHub Repo",
+        "icon": "fab fa-github",
+        "address": "https://github.com/Ranzeplay/RemoteDirectoryList"
+      },
+      {
+        "name": "Mirror",
+        "icon": "fas fa-sitemap",
+        "address": "http://hserver.ranzeplay.me:25550/ranzeplay/RemoteDirectoryList"
+      }
+    ]
+  },
+  {
+    "name": "OAHub",
+    "header": "A Production of Myself",
+    "description": [
+      "An office automation (OA) system for small teams.",
+      "Also the first big project I've ever developed. You can call it as an experimental project.",
+      "The web application is written in <code>C#</code>, running on <code>.NET</code> platform."
+    ],
+    "warning": "The development of this project has paused since 2020.9.19",
+    "links": [
+      {
+        "name": "GitHub Repo",
+        "icon": "fab fa-github",
+        "address": "https://github.com/Ranzeplay/OAHub"
+      },
+      {
+        "name": "Mirror",
+        "icon": "fas fa-sitemap",
+        "address": "http://hserver.ranzeplay.me:25550/ranzeplay/OAHub"
+      }
+    ]
+  }
+]
