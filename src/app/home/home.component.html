@@ -1,57 +1,63 @@
-<div class="rounded-3xl w-5/12 bg-white shadow-lg center-absolute p-16">
-  <h2 class="text-4xl font-extralight mb-2">Jeb Feng</h2>
-  <h4 class="text-lg font-medium font-mono mt-2">Developer & Student</h4>
+<div class="rounded-3xl w-1/2 bg-white shadow-lg center-absolute grid grid-cols-7">
+  <div class="p-16 col-span-5">
+    <h2 class="text-4xl font-extralight mb-2">Jeb Feng</h2>
+    <h4 class="text-lg font-medium font-mono mt-2">Developer & Student</h4>
 
-  <hr class="mb-2 mt-2" />
+    <hr class="mb-2 mt-2" />
 
-  <p class="mt-2">
-    I am a high school student, also a developer. Born in 2005, Chinese.<br />
-    I'm the founder of StaplerIO, but there's only one person in the team, me. <br />
-    Currently focusing on one project: <span class="italic">The Carbon Programming Language</span>.
-    You can check it out and all of my projects on my Git server. <br />
-    Also, you can find me in these websites following these links below.
-  </p>
+    <p class="mt-2">
+      I am a high school student, also a developer. Born in 2005, Chinese.<br />
+      I'm the founder of StaplerIO, but there's only one person in the team, me. <br />
+      Currently focusing on one project: <span class="italic">The Carbon Programming Language</span>.
+      You can check it out and all of my projects on my Git server. <br />
+      Also, you can find me in these websites following these links below.
+    </p>
 
-  <hr class="mb-2 mt-2" />
+    <hr class="mb-2 mt-2" />
 
-  <h3 class="text-lg font-medium mb-2 mt-4">Links</h3>
-  <div class="w-full grid grid-rows-1 grid-cols-4 text-blue-800 place-items-center mt-3" style="margin: auto;">
-    <div class="grid-col hover:underline">
-      <a href="https://github.com/Ranzeplay" target="_blank">
-        <i class="fab fa-github"></i>
-        GitHub
-      </a>
+    <h3 class="text-lg font-medium mb-2 mt-4">Links</h3>
+    <div class="w-full grid grid-rows-1 grid-cols-4 text-blue-800 place-items-center mt-3" style="margin: auto;">
+      <div class="grid-col hover:underline">
+        <a href="https://github.com/Ranzeplay" target="_blank">
+          <i class="fab fa-github"></i>
+          GitHub
+        </a>
+      </div>
+      <div class="grid-col hover:underline">
+        <a href="mailto:ranzeplay@outlook.com" target="_blank">
+          <i class="fas fa-envelope"></i>
+          Outlook
+        </a>
+      </div>
+      <div class="grid-col hover:underline">
+        <a href="https://space.bilibili.com/102116986" target="_blank">
+          <i class="fab fa-youtube"></i>
+          Bilibili
+        </a>
+      </div>
+      <div class="grid-col hover:underline">
+        <a href="http://blog.ranzeplay.me" target="_blank">
+          <i class="fas fa-blog"></i>
+          Blog
+        </a>
+      </div>
     </div>
-    <div class="grid-col hover:underline">
-      <a href="mailto:ranzeplay@outlook.com" target="_blank">
-        <i class="fas fa-envelope"></i>
-        Outlook
-      </a>
-    </div>
-    <div class="grid-col hover:underline">
-      <a href="https://space.bilibili.com/102116986" target="_blank">
-        <i class="fab fa-youtube"></i>
-        Bilibili Channel
-      </a>
-    </div>
-    <div class="grid-col hover:underline">
-      <a href="http://blog.ranzeplay.me" target="_blank">
-        <i class="fas fa-blog"></i>
-        Blog
-      </a>
+
+    <hr class="mb-2 mt-2" />
+
+    <h3 class="text-lg font-medium mb-2 mt-4">Navigation</h3>
+
+    <div class="w-full grid grid-rows-1 grid-cols-5 mt-3 text-blue-800" style="margin: auto;">
+      <div class="grid-col hover:underline">
+        <a [routerLink]="['/home']">Home</a>
+      </div>
+      <div class="grid-col hover:underline">
+        <a [routerLink]="['/products']">Products</a>
+      </div>
     </div>
   </div>
 
-  <hr class="mb-2 mt-2" />
-
-  <h3 class="text-lg font-medium mb-2 mt-4">Navigation</h3>
-
-  <div class="w-full grid grid-rows-1 grid-cols-5 mt-3 text-blue-800" style="margin: auto;">
-    <div class="grid-col hover:underline">
-      <a [routerLink]="['/home']">Home</a>
-    </div>
-    <div class="grid-col hover:underline">
-      <a [routerLink]="['/products']">Products</a>
-    </div>
+  <div class="col-span-2 object-cover h-full">
+    <img class="object-cover w-full h-full rounded-r-3xl" src="/assets/monument_valley.png" />
   </div>
 </div>
