@@ -14,9 +14,9 @@
         "address": "https://dev.azure.com/StaplerIO/The%20Carbon%20Programming%20Language"
       },
       {
-        "name": "Mirror",
+        "name": "Mirror (compiler)",
         "icon": "fas fa-sitemap",
-        "address": "http://hserver.ranzeplay.me:25550/StaplerIO/carbon-lang"
+        "address": "http://hserver.ranzeplay.me:25550/StaplerIO/carbon-lang_compiler"
       }
     ]
   },
