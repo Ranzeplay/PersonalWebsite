@@ -16,7 +16,7 @@
       {
         "name": "Mirror (compiler)",
         "icon": "fas fa-sitemap",
-        "address": "http://hserver.ranzeplay.me:25550/StaplerIO/carbon-lang_compiler"
+        "address": "http://hserver.ranzeplay.me:8000/StaplerIO/tcpl/carbon-lang_compiler"
       }
     ]
   },
@@ -38,7 +38,7 @@
       {
         "name": "Mirror",
         "icon": "fas fa-sitemap",
-        "address": "http://hserver.ranzeplay.me:25550/ranzeplay/Semicolon.OnlineJudge"
+        "address": "http://hserver.ranzeplay.me:8000/ranzeplay/Semicolon-OnlineJudge"
       }
     ]
   },
@@ -61,7 +61,7 @@
       {
         "name": "Mirror",
         "icon": "fas fa-sitemap",
-        "address": "http://hserver.ranzeplay.me:25550/StaplerIO/Grades.Offline.WPF"
+        "address": "http://hserver.ranzeplay.me:8000/StaplerIO/Grades.Offline.WPF"
       }
     ]
   },
@@ -100,7 +100,7 @@
       {
         "name": "Mirror",
         "icon": "fas fa-sitemap",
-        "address": "http://hserver.ranzeplay.me:25550/ranzeplay/RemoteDirectoryList"
+        "address": "http://hserver.ranzeplay.me:8000/ranzeplay/MCGit"
       }
     ]
   },
