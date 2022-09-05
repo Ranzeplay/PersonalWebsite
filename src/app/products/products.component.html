@@ -18,6 +18,15 @@
         <div class="w-full grid grid-rows-auto grid-cols-1 text-blue-800" style="margin: auto;">
           <div class="grid-row hover:underline" *ngFor="let link of product.links">
             <a href="{{ link.address }}" target="_blank">
+              <span *ngIf="link.icon === 'fab fa-github'; else otherIcons1"><fa-icon [icon]="faGitHub"></fa-icon></span>
+              <ng-template #otherIcons1>
+                <span *ngIf="link.icon === 'fas fa-sitemap'; else otherIcons2"><fa-icon [icon]="faSitemap"></fa-icon></span>
+              </ng-template>
+              <ng-template #otherIcons2>
+                <span *ngIf="link.icon === 'fab fa-git-alt'"><fa-icon [icon]="faGit"></fa-icon></span>
+              </ng-template>
+
+
               <i class="{{ link.icon }}"></i>
               {{ link.name }}
             </a>

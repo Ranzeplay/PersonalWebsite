@@ -1,5 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
+import { faGitAlt, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faSitemap } from '@fortawesome/free-solid-svg-icons';
 import { ProductModel } from './model';
 
 @Component({
@@ -8,6 +10,10 @@ import { ProductModel } from './model';
   styleUrls: ['./products.component.css'],
 })
 export class ProductsComponent implements OnInit {
+  faGit = faGitAlt;
+  faSitemap = faSitemap;
+  faGitHub = faGithub;
+
   public products: ProductModel[];
 
   constructor(private http: HttpClient) {
@@ -15,7 +21,7 @@ export class ProductsComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.http.get('assets/products.json').subscribe(data => {
+    this.http.get('assets/products.json').subscribe((data) => {
       console.log(data);
       const dataString = JSON.stringify(data);
       this.products = JSON.parse(dataString);
