@@ -10,7 +10,9 @@ import { ProductModel } from './model';
 export class ProductsComponent implements OnInit {
   public products: ProductModel[];
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient) {
+    this.products = [];
+  }
 
   ngOnInit() {
     this.http.get('assets/products.json').subscribe(data => {
