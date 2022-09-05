@@ -122,7 +122,7 @@
       {
         "name": "Mirror",
         "icon": "fas fa-sitemap",
-        "address": "http://hserver.ranzeplay.me:25550/ranzeplay/OAHub"
+        "address": "http://hserver.ranzeplay.me:8000/ranzeplay/OAHub"
       }
     ]
   }
