@@ -2,29 +2,29 @@ import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { faGitAlt, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faSitemap } from '@fortawesome/free-solid-svg-icons';
-import { ProductModel } from './model';
+import { ProductModel as ProjectModel } from './model';
 
 @Component({
   selector: 'app-products',
-  templateUrl: './products.component.html',
-  styleUrls: ['./products.component.css'],
+  templateUrl: './projects.component.html',
+  styleUrls: ['./projects.component.css'],
 })
-export class ProductsComponent implements OnInit {
+export class ProjectsComponent implements OnInit {
   faGit = faGitAlt;
   faSitemap = faSitemap;
   faGitHub = faGithub;
 
-  public products: ProductModel[];
+  public projects: ProjectModel[];
 
   constructor(private http: HttpClient) {
-    this.products = [];
+    this.projects = [];
   }
 
   ngOnInit() {
-    this.http.get('assets/products.json').subscribe((data) => {
+    this.http.get('assets/projects.json').subscribe((data) => {
       console.log(data);
       const dataString = JSON.stringify(data);
-      this.products = JSON.parse(dataString);
+      this.projects = JSON.parse(dataString);
     });
   }
 }
