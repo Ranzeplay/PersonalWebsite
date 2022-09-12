@@ -1,0 +1,17 @@
+<div class="rounded-3xl w-7/12 bg-white shadow-lg center-absolute p-16 my-64">
+  <h2 class="text-4xl font-light mb-2">Gallery</h2>
+  <hr class="mb-5" />
+
+  <div class="w-full shadow-md rounded-xl p-7 mt-2" *ngFor="let artwork of artworks">
+    <img src="/assets/gallery/compressed/{{ artwork.name }}" class="rounded-lg drop-shadow-lg"/>
+    <h3 class="font-sans text-3xl font-bold mt-3">{{ artwork.title }}</h3>
+    <p class="font-serif mt-3">{{ artwork.description }}</p>
+    <p class="font-mono">{{ artwork.date }}</p>
+
+    <a href="/assets/gallery/original/{{ artwork.name }}" download="{{ artwork.name }}" class="text-blue-700 hover:underline mt-3">Download original artwork</a>
+  </div>
+
+  <div class="place-items-end w-full mt-6 -mb-4">
+    <a class="text-blue-700 hover:underline text-lg" [routerLink]="['/home']">Back</a>
+  </div>
+</div>
